@@ -76,16 +76,16 @@ def get_address_details(country_code):
     """Return a valid address for the given country code."""
     addresses = {
         'US': {
-            'address': "123 Main St",
-            'city': "New York",
-            'state': "NY",
-            'zip': "10001",
-            'phone': "+12125551234",
+            'address': "1600 Pennsylvania Ave NW",  # real street
+            'city': "Washington",
+            'state': "DC",
+            'zip': "20500",
+            'phone': "+12025551234",
             'country': "United States",
             'currency': "USD",
-            'zone_code': "NY",
-            'latitude': 40.7128,
-            'longitude': -74.0060
+            'zone_code': "DC",
+            'latitude': 38.8977,
+            'longitude': -77.0365
         },
         'GB': {
             'address': "221B Baker Street",
